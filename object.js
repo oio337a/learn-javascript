@@ -21,7 +21,7 @@ print(hero)
 console.log(here.name); // .name 으로 값을 불러올수도 있지만
 console.log(here['name']);  // ['string'] 으로도 값을 가져올 수 있다. 
 
-// 3. Property value shortahand
+// 3. Property value shorthand
 const person1 = { name: 'bob', age: 2 };
 const person2 = { name: 'steve', age: 5 };
 const person3 = { name: 'dave', age: 4 };
@@ -78,7 +78,7 @@ user2.name = 'holy';
 console.log(user); // 'holy' 변한다. 
 
 // 그렇다면 기존값을 변경하지 않고 복제된 값을 변경하려면??
-ㅇ
+
 // old way
 const user3 = {};
 for (key in user) {
