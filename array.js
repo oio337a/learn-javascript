@@ -64,4 +64,11 @@ console.log(newFruits);
 // 5. Searching
 // find the index
 console.log(fruits.indexOf('🍎')); // 사과의 인덱스 받아오기
-console.log(fruits.includes('🍉'))
+console.log(fruits.includes('🍉')) // 있는지 없는지 여부 return 값 T or F
+
+// lastIndexOf
+
+console.log(fruits);
+fruits.push('🍎');
+console.log(fruits.lastIndexOf('🍎'));
+
